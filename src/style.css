@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/font/Roboto-Regular.eot');
+  src: local('Roboto'), local('Roboto-Regular'),
+      url('./assets/font/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./assets/font/Roboto-Regular.woff') format('woff'),
+      url('./assets/font/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: 'Roboto-Regular';
+}
+.Main{
+  width: 100%;
+  flex-grow: 1;
+  background-color: #f8f9fa;
+}
+.Wrap{
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}

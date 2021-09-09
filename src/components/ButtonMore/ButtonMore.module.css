@@ -1,0 +1,21 @@
+
+.More{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  background-color: #507712;
+  color: #fff;
+  border: 1px solid #507712;
+  border-radius: 7px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.More:hover{
+  background-color: #C99A2E;
+  border: 1px solid #C99A2E;
+}

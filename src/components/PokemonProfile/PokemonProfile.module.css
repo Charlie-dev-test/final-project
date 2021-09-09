@@ -1,0 +1,48 @@
+.Wrap{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  border-radius: 7px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  box-shadow: 0 0.3rem .5rem rgb(0 0 0 / 15%);
+  margin-bottom: 30px;
+}
+@media screen and (max-width:600px){
+  .Wrap{
+    flex-direction:column;
+    padding-bottom: 20px;
+  }
+}
+
+.Pokemon{
+  width: 50%;
+}
+@media screen and (max-width: 768px){
+  .Pokemon{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 600px){
+  .Pokemon{
+    width: 100%;
+  }
+}
+.Description{
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 30px;
+}
+@media screen and (max-width: 768px){
+  .Description{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px){
+  .Description{
+    width: 100%;
+    padding-top: 10px
+  }
+}

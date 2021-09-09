@@ -1,0 +1,91 @@
+.Card{
+  width: 15%;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #222222;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 0.3rem .5rem rgb(0 0 0 / 15%);
+  transition: all .1s ease-out .1s;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@media screen and (max-width: 992px){
+  .Card{
+    width: 20%;
+  }
+}
+@media screen and (max-width: 768px){
+  .Card{
+    width: 22%;
+  }
+}
+@media screen and (max-width: 600px){
+  .Card{
+    width: 25%;
+  }
+}
+@media screen and (max-width: 500px){
+  .Card{
+    width: 40%;
+  }
+}
+.Card:hover{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+.Card img{
+  width: 100%;
+}
+
+.Card h3{
+  text-transform: capitalize;
+}
+
+.Btn{
+  background-color: #7BB026;
+  color: #fff;
+  border: 1px solid #63921A;
+  border-radius: 7px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  .Btn{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+  }
+}
+@media screen and (max-width: 600px){
+  .Btn{
+    /* padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem; */
+    font-size: 13px;
+  }
+}
+.Btn:hover{
+  background-color: #63921A;
+}
+.Btn:active{
+  background-color: #63921A;
+}
+.Btn:disabled{
+  background-color: #E2F7C2;
+  color: #222222;
+  border: 1px solid #E2F7C2;
+}
